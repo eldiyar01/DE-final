@@ -12,7 +12,6 @@ phrases.append("hello.ogg")
 phrases.append("rus.ogg")
 phrases.append("kenobi.ogg")
 phrases.append("lina.ogg")
-phrase = pygame.mixer.Sound(random.choice(phrases))
 def MOTION(PIR_PIN):
     pygame.mixer.Sound(random.choice(phrases)).play()
 
